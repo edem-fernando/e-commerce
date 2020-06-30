@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "untitled-font-1";
+    src:url("fonts/untitled-font-1.eot");
+    src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+        url("fonts/untitled-font-1.woff") format("woff"),
+        url("fonts/untitled-font-1.ttf") format("truetype"),
+        url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[data-icon]:before {
+    font-family: "untitled-font-1" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "untitled-font-1" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    position: relative !important;
+    top: .125em !important;
+    margin-right: .4em !important;
+}
+.icon-notext:before{
+    top: 0 !important;
+    margin-right: 0 !important;
+}
+.icon-facebook:before {
+    content: "\61";
+}
+.icon-instagram:before {
+    content: "\62";
+}
+.icon-search:before {
+    content: "\63";
+}
+.icon-youtube:before {
+    content: "\64";
+}
+.icon-success:before {
+    content: "\65";
+}
+.icon-alert:before {
+    content: "\66";
+}
+.icon-info:before {
+    content: "\67";
+}
+.icon-error:before {
+    content: "\68";
+}
+.icon-info-1:before {
+    content: "\69";
+}
+.icon-menu:before {
+    content: "\6a";
+}
+.icon-cart:before {
+    content: "\6b";
+}
+.icon-mail:before {
+    content: "\6c";
+}
+.icon-user:before {
+    content: "\6d";
+}
+.icon-icon-broken:before {
+    content: "\6e";
+}
+.icon-plus:before {
+    content: "\6f";
+}
+.icon-minus:before {
+    content: "\70";
+}
+.icon-star:before {
+    content: "\71";
+}
